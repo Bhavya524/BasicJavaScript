@@ -138,3 +138,17 @@ timer = () => {
 setTimeout(timer, 3000);
 
 // setInterval(timer, 3000);
+
+/*
+    Local Storage
+*/
+//JSON to str
+obj = {"name":"bhavya","age":21}
+let strr = JSON.stringify(obj);
+console.log(strr);
+
+//parsed to JSON
+let parsed = JSON.parse(strr);
+console.log(parsed);
+
+
